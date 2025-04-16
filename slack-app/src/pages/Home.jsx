@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from "react-redux";
 import "./home.css";
 import Navbar from "./Navbar";
 import { togglePopup } from "../slices/popupSlice";
+import first from "../assets/slack_left_400x300.png"
+import second from "../assets/slack_right_400x300.png"
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -35,7 +37,7 @@ const Home = () => {
             <button className="sign">Sign Up With Google</button>
           </div>
           <div className="ri">
-            <img src="https://placehold.co/400x300" alt="" />
+            <img src={second} alt="" />
           </div>
         </div>
       </section>
@@ -56,7 +58,7 @@ const Home = () => {
       <section>
         <div className="middle">
           <div className="img">
-            <img src="https://placehold.co/400x300" alt="" />
+            <img src={first} alt="" />
           </div>
           <div className="descr">
             <p className="text">
