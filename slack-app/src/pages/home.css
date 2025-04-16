@@ -1,0 +1,60 @@
+.firstPop {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: lightblue;
+  border-radius: 32px;
+  font-weight: bold;
+}
+.free-btn {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  width: 120px;
+  border: none;
+}
+.hero {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.sign {
+  background-color: rgb(37, 162, 204);
+  margin-left: 12px;
+  padding: 1rem;
+  color: white;
+  border: none;
+}
+
+.textBig {
+  font-size: 48px;
+  font-weight: bold;
+}
+.desc {
+  font-weight: 500;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+.middle {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.text {
+  font-weight: bold;
+  font-size: 36px;
+}
+.description {
+  font-weight: 500;
+}
+.watch{
+    border: 1px solid purple;
+    color: purple;
+    background-color: white;
+    padding: 0.6rem;
+}

@@ -1,0 +1,38 @@
+.left {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  gap: 1rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+.right {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  gap: 1rem;
+}
+.sales {
+  border: 1px solid chocolate;
+  color: chocolate;
+  padding: 0.3rem;
+  border-radius: 6px;
+}
+.free {
+  background-color: maroon;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 6px;
+}
+.navBig {
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
